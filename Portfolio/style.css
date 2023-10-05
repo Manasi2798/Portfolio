@@ -1,0 +1,257 @@
+/* remove gap between page and browser */
+
+
+
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* ...........................................................header............................................................. */
+body header{
+    background-color: rgb(114, 134, 211);
+    color: rgb(255, 242, 242);
+    /* font-family:sans-serif; */
+    font-family: 'Peralta', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+#AboutMe{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    /* background-image: url('./Images/background.jpg');  */
+}
+
+.info{
+    /* background-color: chocolate; */
+    height: auto;
+    width: 70%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    text-align: center;
+}
+
+.info p{
+    font-size: 20px;
+    font-stretch: expanded;
+    line-height: 30px;
+    /* text-align: center;; */
+}
+
+.info h3{
+    font-size: 25px;
+    font-weight:400px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.info h1 {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+
+.down a{
+    margin-top:50px;
+    text-decoration: none;
+    /* transform: scale(1.1); */
+    transition: 0.5s all ease-in-out;
+}
+
+.down a:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.down a:link,.down a:after,.down a:hover,.down a:visited{
+    color:rgb(255, 242, 242);
+}
+
+.icons a{
+    margin: 0px 5px;
+    text-decoration: none;
+    transition: 0.3s all ease-in-out;
+}
+
+.icons a:hover{
+    transform: scale(1.2);
+}
+
+.icons{
+    margin-top: 20px;
+}
+/* .....................................................section-project..................................................... */
+
+#my_projects{
+    background-color: rgb(247, 232, 213);
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Peralta', cursive;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    align-items: center;
+    /* background-image: url('./Images/background.jpg');  */
+}
+
+.heading{
+    /* color: rgb(5, 59, 80);
+    padding: 10px; */
+    font-size: 16px;
+    text-decoration: underline;
+    margin-top:20px;
+    margin-bottom: 10px;
+    /* background-color: rgb(100, 204, 197,0.5);
+    border-radius: 10px; */
+}
+
+.outerBox{
+    /* background-color:darksalmon; */
+    width: 100vw;
+    height:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+#one,#two,#home{
+    transition: 0.5s all ease-in-out
+}
+
+
+
+.projects{
+    display: flex;
+    align-items: center;
+    width: 1025px;
+    height: auto;
+    /* padding: ; */
+    margin:0px 10px;
+    overflow:hidden;
+    scroll-behavior: smooth;
+    /* background-color: chartreuse; */
+}
+
+.kanban, .imdb,.bookmyshow, .WIP1, .WIP2, .WIP3{
+    background-color:rgb(142, 167, 233);
+    height: auto;
+    width: 300px;
+    /* display: inline-block; */
+    margin:40px 25px;
+    padding: 10px 10px;
+    /* font-size: 18px; */
+    color: rgb(255, 242, 242);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    transition: 0.5s all ease-in-out;
+}
+
+
+
+.kanban img , .imdb img,.bookmyshow img, .WIP1 img, .WIP2 img, .WIP3 img{
+    /* margin: 10px 0px; */
+    /* background-color: brown; */
+    margin: 10px 10px;
+}
+
+.kanban p, .imdb p,.bookmyshow p,.WIP1 p, .WIP2 p, .WIP3 p{
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px ;
+    text-align: justify;
+    font-size: 17px;
+}
+
+.kanban:hover, .imdb:hover,.bookmyshow:hover,.WIP1:hover, .WIP2:hover, .WIP3:hover{
+    transform: scale(1.08);
+    box-shadow: 0px 0px 20px rgb(14, 14, 14);
+}
+
+#one:hover, #two:hover,#home:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.projects div img{
+    height:150px;
+    width: 250px;
+}
+
+.buttons{
+    /* background-color: brown; */
+    width: 250px;
+    display: flex;
+    /* position: absolute; */
+    /* flex-direction: row; */
+    padding: 5px;
+    justify-content: space-around;
+}
+
+.buttons button{
+    border-radius: 10px;
+    /* border-color:rgb(5, 59, 80); */
+    padding: 8px;
+    font-size: 15px;
+    background-color: rgb(142, 167, 233);
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.buttons button a{
+    text-decoration: none;
+    outline: none;
+    color: rgb(255, 242, 242);
+    font-weight:400 ;
+}
+
+#home{
+    margin-top: 20px;
+}
+
+
+#home a:link,#home a:after,#home a:hover,#home a:visited{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+}
+
+/* ................Animation Part............................... */
+
+.info h3::after{
+    content: "|";
+    color: rgb(255, 219, 170);
+    position: absolute;
+    background-color: rgb(114, 134, 211);
+    right:0px;
+    width:100%;
+    text-align: left;
+    align-self: center;
+    animation: typing 3s steps(30)  infinite alternate,
+                line 0.3s infinite alternate;
+}
+
+@keyframes typing{
+    100%{
+        width: 0px;
+    }
+}
+
+@keyframes line{
+    50%{
+        color: rgb(114, 134, 211);
+    }
+}
+
+
+
