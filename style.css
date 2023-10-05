@@ -98,7 +98,7 @@ body header{
     position: relative;
     display: flex;
     flex-direction: column;
-    /* justify-content: space-around; */
+    justify-content: space-around;
     align-items: center;
     /* background-image: url('./Images/background.jpg');  */
 }
